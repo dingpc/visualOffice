@@ -1,0 +1,62 @@
+/* Global CSS */
+body{
+	margin:0px;
+	font-family:"微软雅黑",Arial, Helvetica, sans-serif;
+	background-color:#ffffff;
+	background-repeat:repeat;
+	background-position: left top;
+}
+
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,img,textarea,blockquote,p {
+	padding: 0;
+	margin: 0;
+}
+
+input,select,textarea,table,td {
+	font-size: 12px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: 12px normal;
+}
+
+img {
+	border: 0;
+}
+
+.loginBg {
+	width: 800px;
+	height: 600px;
+	background-image: url(../images/bg_login.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	/*width: 100%;
+	height: 100%;
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg_login.jpg', sizingMethod='scale');*/
+}
+
+.divBg {
+	width: 677px;
+	height: 391px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px auto;
+	/*FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/bg.png);*/
+}
+
+.text_bg {
+	background-image: url(/static/images/text_bg.gif);
+	width: 200px;
+	height: 30px;
+	border: 0px;
+	background-color: #fff;
+	line-height: 25px;
+	font-size: 14px;
+	padding: 0px 0px 0px 4px;
+	color: #666;
+	font-weight: bold;
+}
